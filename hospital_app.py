@@ -85,9 +85,9 @@ DEPT_INFO = {
 
 # ── Header ────────────────────────────────────────────────────────────────────
 st.markdown("""
-<div style="padding:1.5rem 0 1rem;">
-    <div style="font-size:28px;font-weight:700;color:#111827;margin-bottom:6px;">Smart Hospital Patient Navigator</div>
-    <div style="font-size:15px;color:#6b7280;">Find the Right Department for Your Symptoms</div>
+<div style="padding:2rem 0 1.5rem;text-align:center;">
+    <div style="font-size:32px;font-weight:700;color:#111827;margin-bottom:10px;">Smart Hospital Patient Navigator</div>
+    <div style="font-size:18px;color:#6b7280;">Find the Right Department for Your Symptoms</div>
 </div>
 """, unsafe_allow_html=True)
 st.divider()
