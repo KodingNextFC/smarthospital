@@ -84,43 +84,12 @@ DEPT_INFO = {
 }
 
 # ── Header ────────────────────────────────────────────────────────────────────
-col_logo, col_steps = st.columns([1, 2])
-with col_logo:
-    st.markdown("""
-    <div style="display:flex;align-items:center;gap:12px;padding:8px 0;">
-        <div style="background:#1a56db;border-radius:12px;padding:10px 14px;font-size:24px;">🏥</div>
-        <div>
-            <div style="font-size:18px;font-weight:700;color:#111827;">Smart Hospital</div>
-            <div style="font-size:12px;color:#6b7280;">AI Patient Guidance</div>
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
-
-with col_steps:
-    st.markdown("""
-    <div style="display:flex;align-items:center;gap:0;padding:12px 0;">
-        <div style="text-align:center;flex:1;">
-            <div style="width:28px;height:28px;border-radius:50%;background:#1a56db;color:white;font-size:13px;font-weight:600;display:flex;align-items:center;justify-content:center;margin:0 auto;">1</div>
-            <div style="font-size:11px;font-weight:600;color:#1a56db;margin-top:4px;">Symptoms</div>
-        </div>
-        <div style="flex:1;height:2px;background:#e5e7eb;margin-bottom:16px;"></div>
-        <div style="text-align:center;flex:1;">
-            <div style="width:28px;height:28px;border-radius:50%;background:#e5e7eb;color:#9ca3af;font-size:13px;font-weight:600;display:flex;align-items:center;justify-content:center;margin:0 auto;">2</div>
-            <div style="font-size:11px;color:#9ca3af;margin-top:4px;">Details</div>
-        </div>
-        <div style="flex:1;height:2px;background:#e5e7eb;margin-bottom:16px;"></div>
-        <div style="text-align:center;flex:1;">
-            <div style="width:28px;height:28px;border-radius:50%;background:#e5e7eb;color:#9ca3af;font-size:13px;font-weight:600;display:flex;align-items:center;justify-content:center;margin:0 auto;">3</div>
-            <div style="font-size:11px;color:#9ca3af;margin-top:4px;">Review</div>
-        </div>
-        <div style="flex:1;height:2px;background:#e5e7eb;margin-bottom:16px;"></div>
-        <div style="text-align:center;flex:1;">
-            <div style="width:28px;height:28px;border-radius:50%;background:#e5e7eb;color:#9ca3af;font-size:13px;font-weight:600;display:flex;align-items:center;justify-content:center;margin:0 auto;">4</div>
-            <div style="font-size:11px;color:#9ca3af;margin-top:4px;">Recommendation</div>
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
-
+st.markdown("""
+<div style="padding:1.5rem 0 1rem;">
+    <div style="font-size:28px;font-weight:700;color:#111827;margin-bottom:6px;">Smart Hospital Patient Navigator</div>
+    <div style="font-size:15px;color:#6b7280;">Find the Right Department for Your Symptoms</div>
+</div>
+""", unsafe_allow_html=True)
 st.divider()
 
 # ── Form ──────────────────────────────────────────────────────────────────────
